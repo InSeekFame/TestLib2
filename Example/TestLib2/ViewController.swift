@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         let demo = ClassA()
 //        
         print(demo.name)
+        demo.todo()
     }
 
     override func didReceiveMemoryWarning() {
