@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import TestLib2
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("TestLib")
+        
+        let demo = ClassA()
+//        
+        print(demo.name)
     }
 
     override func didReceiveMemoryWarning() {
