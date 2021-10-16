@@ -18,6 +18,10 @@ public class ClassA {   //这是public类，可被外部工程访问
     public func todo(){
         print("发布了一个Lib版本")
     }
+    
+    public func todo2(){
+        print("发布了一个Lib2版本")
+    }
 }
 
 class ClassB {  //不是public类，不能被外部工程访问
